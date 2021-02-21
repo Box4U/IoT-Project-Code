@@ -15,12 +15,10 @@ These instructions will get you a copy of the project up and running on your loc
 * Commit Arduino code to your GitHub repository
 
 
-#### INTERNET OF THINGS
+#### Box4U
 
-The Internet of Things is the network of physical objects that contain embedded technology to communicate and interact with their internal states or the external environment. Gartner predicts 20bn devices by the end of 2020 - 2017 saw the such devices outnumber humans. This represents devices, not people employing bi-directional communication resulting in large, complex data flows requiring new types of insight.
+Box4u is a solution developed by the students of It Sligo, in order to transform people's lives, bringing comfort and quality.
 
-The IoT represents the fourth evolutionary stage of development for the Internet. Initially, the internet housed shared documents. Commerce followed enabling business 
-(e.g. Amazon, eBay) to be transacted. More recently, people have generated increasing volumes of content (e.g. Youtube, Facebook). This includes directly contributed information but also that data captured autonomously - location, buying preferences, activity, health. The fourth evolution will represent a virtual tsunami of data as everyday objects (already, televisions, cars, phones) become intelligent and connected. These devices do not necessarily communicate with humans. Increasingly, machine learning will imbue intelligence into the behaviour of these devices prompting deeper and more extensive autonomy of action.
 
 ### Watch the video about IoT
 
