@@ -15,12 +15,12 @@ These instructions will get you a copy of the project up and running on your loc
 * Commit Arduino code to your GitHub repository
 
 
-#### Box4U
+## Box4U
 
 Box4u is a solution developed by the students of It Sligo, in order to transform people's lives, bringing comfort and quality.
 
 
-#### Box4U App
+## Box4U App
 
 ![image_App](https://github.com/Box4U/IoT-Project-Code/blob/main/imagem.jpg)
 
