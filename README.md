@@ -31,7 +31,7 @@ Box4u is a solution developed by the students of It Sligo, in order to transform
 
 ### Blynk App 
 
-* **Blynk Link **  - [Library](https://github.com/blynkkk/blynk-library/releases/tag/v0.6.1)
+Blynk Link Library  - [Library](https://github.com/blynkkk/blynk-library/releases/tag/v0.6.1)
 
 
 
