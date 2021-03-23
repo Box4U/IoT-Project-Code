@@ -1,14 +1,10 @@
 
 #include <Bridge.h>
 #define BLYNK_PRINT Serial
-//#include <HttpClient.h>
 #include <BlynkSimpleYun.h>
 char auth[] = "hzjSsmPuyFpkg2QpaH5oIHch3GyopwrW";
-//String deviceId = "*************"; //replace with deviceid from pushingbox account
-//String logServer = "http://api.pushingbox.com";
 
 int PIR = 2;  
-// High: mail open, Low: mail closed
 boolean previous_mailStatus = 0;
 void setup() {
   Serial.begin(9600);
@@ -17,13 +13,9 @@ void setup() {
    Bridge.begin();
    Blynk.begin(auth);
 }
-
-
 void loop() {
-  // read the input pin:
   boolean mail_status = digitalRead(PIR );
    Blynk.run();
-  //makes sure that push notification only on mail open
   if (mail_status != previous_mailStatus && !mail_status ) {
     // Sending a notification to your mobile phone
     // function takes the message as a parameter
@@ -34,40 +26,3 @@ void loop() {
   previous_mailStatus = mail_status;
 
 }
-
-/*
-void sendNotification(String message) {
-  Serial.println("- starting client");
-
- // WiFiClient client;
- HttpClient client;
-  Serial.println("- connecting to pushing server: " + String(logServer));
-  //client.begin(logServer);
-  
-  {
-  //  Serial.println("- succesfully connected");
-
-    String postStr = "devid=";
-    postStr += String(deviceId);
-    postStr += "&message_parameter=";
-    postStr += String(message);
-    postStr += "\r\n\r\n";
-
-    Serial.println("- sending data...");
-    client.setHeader("Content-Type: application/x-www-form-urlencoded");
-//    client.addHeader();
-    //client.print("POST /pushingbox HTTP/1.1\n");
-   // client.print("Host: api.pushingbox.com\n");
-    //client.print("Connection: close\n");
-   // client.print("Content-Type: application/x-www-form-urlencoded\n");
-//    client.print("Content-Length: ");
-//    client.print(postStr.length());
-//    client.print("\n\n");
-//    client.print(postStr);
-//     int httpResponseCode = client.post(logServer,postStr);
-     Serial.print("HTTP Response code: ");
-     Serial.println(httpResponseCode);
-  }
-  //client.end();
-  Serial.println("- stopping the client");
-}*/
