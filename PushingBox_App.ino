@@ -1,17 +1,3 @@
-/*
-Derived from Yún HTTP Client Sketch
- This example for the Arduino Yún shows how create a basic
- HTTP client that connects to the internet and downloads
- content. In this case, you'll connect to the Arduino
- website and download a version of the logo as ASCII text.
- created by Tom igoe
- May 2013
- This example code is in the public domain.
- http://www.arduino.cc/en/Tutorial/HttpClient
- Additions added by Mary Loftus April 2018 
- - adapted from example by Tom DeBell - August 2017 - http://www.open-sensing.org/evaporometerblog/datalog
- */
-
 // Adding Internet Functionality
 #include <Bridge.h>
 #include <HttpClient.h>
