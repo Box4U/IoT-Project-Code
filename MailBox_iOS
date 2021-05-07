@@ -3,7 +3,7 @@
 #define BLYNK_PRINT Serial
 #include <BlynkSimpleYun.h>
 char auth[] = "hzjSsmPuyFpkg2QpaH5oIHch3GyopwrW"; 
-
+//Declare Variable
 int PIR = 2;  
 boolean previous_mailStatus = 0;
 void setup() {
@@ -24,5 +24,4 @@ void loop() {
   delay(5000);
   }
   previous_mailStatus = mail_status;
-
 }
