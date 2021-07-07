@@ -20,12 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
 Box4u is a solution developed by the students of It Sligo, in order to transform people's lives, bringing comfort and quality.
 
 ## Video Demo 
-
-[![Smart MailBox](![image](https://user-images.githubusercontent.com/72497559/124742569-c2794700-df14-11eb-832a-5215ed948705.png)](https://www.youtube.com/watch?v=E8e-XA-72NU"Demo")
-
-## Box4U App
-
-![image_App](https://github.com/Box4U/IoT-Project-Code/blob/main/imagem.jpg)
+[![Watch the video](https://user-images.githubusercontent.com/72497559/124742569-c2794700-df14-11eb-832a-5215ed948705.png)](https://www.youtube.com/watch?v=E8e-XA-72NU"Demo")
 
 ### Blynk App 
 
