@@ -21,16 +21,11 @@ Box4u is a solution developed by the students of It Sligo, in order to transform
 
 ## Video Demo 
 
-[![Smart MailBox](http://img.youtube.com/vi/QSIPNhOiMoE/0.jpg)](https://www.youtube.com/watch?v=E8e-XA-72NU"Demo")
+[![Smart MailBox](![image](https://user-images.githubusercontent.com/72497559/124742569-c2794700-df14-11eb-832a-5215ed948705.png)](https://www.youtube.com/watch?v=E8e-XA-72NU"Demo")
 
 ## Box4U App
 
 ![image_App](https://github.com/Box4U/IoT-Project-Code/blob/main/imagem.jpg)
-
-
-### Watch the video about IoT
-
-[![How It Works: Internet of Things]](http://www.youtube.com/watch?v=QSIPNhOiMoE "more about")
 
 ### Blynk App 
 
