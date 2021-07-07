@@ -19,6 +19,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 Box4u is a solution developed by the students of It Sligo, in order to transform people's lives, bringing comfort and quality.
 
+## Video Demo 
+
+[![Smart MailBox](http://img.youtube.com/vi/QSIPNhOiMoE/0.jpg)](https://www.youtube.com/watch?v=E8e-XA-72NU"Demo")
 
 ## Box4U App
 
@@ -27,7 +30,7 @@ Box4u is a solution developed by the students of It Sligo, in order to transform
 
 ### Watch the video about IoT
 
-[![How It Works: Internet of Things](http://img.youtube.com/vi/QSIPNhOiMoE/0.jpg)](http://www.youtube.com/watch?v=QSIPNhOiMoE "more about")
+[![How It Works: Internet of Things]](http://www.youtube.com/watch?v=QSIPNhOiMoE "more about")
 
 ### Blynk App 
 
